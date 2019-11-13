@@ -1,13 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px
+ }
 
+ h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #FF686D;
+ }
+
+ .list {
+  list-style: none
+  padding: 0;
+ }
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
 
 .banner {
-  background-image: url("images/airbnb_barcelona.png");
+  background-image: url("images/barcelona.jpg");
   height: 200px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   color: white;
   padding: 30px;
-  text-align: center;
+  text-align: left;
   margin: 0;
 }
+
+.banner h1 {
+  width: 50%;
+  text-align: left;
+}
+
+.banner h2 {
+  width: 50%;
+  text-align: left;
+  color: gray;
+}
+
+
+
+
